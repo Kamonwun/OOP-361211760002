@@ -36,7 +36,11 @@ public class basicjava {
         System.out.println(s.concat(msg));
 
         System.out.println(t.toUpperCase());
+
         System.out.println("สวัสดี");
+
+
+
 
 
 

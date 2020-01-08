@@ -9,17 +9,26 @@ public class Method_Exercise {
         System.out.println("Enter number 1: ");
         double x = sc.nextDouble();
         System.out.println("Enter number 2: ");
-        double x = sc.nextDouble();
+        double y = sc.nextDouble();
 
         //display
-        System.out.println("The summation of " + x + "and" + y + ": " + sum(x, y));
+        System.out.println("The summation of"+x+"and"+y+": "+sum(x,y));
+        System.out.println("The summation of"+x+"and"+y+": "+sum(x,y));
+        System.out.println("The summation of"+x+"and"+y+": "+sum(x,y));
+        System.out.println("The summation of"+x+"and"+y+": "+sum(x,y));
     } //main
-    public
+     public static  double sum(double x, double y){
 
-    }
-    //sum
-    public static double sum (double x, double y){
-        return
-    }
+        return x + y;
+    }//บวก
+    public static  double sub(double x, double y){
+
+        return x - y;
+    }//ลบ
+    public static  double mul(double x, double y){
+
+        return x * y;
+    }//คูณ
+
 }
 

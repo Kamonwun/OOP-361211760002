@@ -1,4 +1,4 @@
-package Lab9;
+package lab9;
 
 public class Employee {
     private int empID;
@@ -6,19 +6,17 @@ public class Employee {
     private String position;
     private double salary;
 
-    //tostring
+    //constructor
 
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "empID=" + empID +
-                ", name='" + name + '\'' +
-                ", position='" + position + '\'' +
-                ", salary=" + salary +
-                '}';
+    public Employee(int empID, String name, String position, double salary) {
+        this.empID = empID;
+        this.name = name;
+        this.position = position;
+        this.salary = salary;
     }
 
     //getter and setter
+
     public int getEmpID() {
         return empID;
     }
@@ -51,14 +49,15 @@ public class Employee {
         this.salary = salary;
     }
 
-    //constructor
-    public Employee(int empID, String name, String position, double salary) {
-        this.empID = empID;
-        this.name = name;
-        this.position = position;
-        this.salary = salary;
+    //toString
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "empID=" + empID +
+                ", name='" + name + '\'' +
+                ", position='" + position + '\'' +
+                ", salary=" + salary +
+                '}';
     }
-
-
-
 }

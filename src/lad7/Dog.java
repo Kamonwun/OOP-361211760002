@@ -15,7 +15,6 @@ public class Dog {
         this.age = age;
         this.hairColor = hairColor;
 
-
     }
     //Behavior คือ
     public void barkintln(){
